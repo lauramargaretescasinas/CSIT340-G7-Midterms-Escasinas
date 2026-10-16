@@ -34,9 +34,10 @@ function App() {
   }
 
   return (
-    <>
+    <div>
       <Navbar />
-    </>
+      
+    </div>
   )
   // return (
   //   <div className="flex min-h-screen flex-col bg-[#FAF3E1] text-[#222222]">
