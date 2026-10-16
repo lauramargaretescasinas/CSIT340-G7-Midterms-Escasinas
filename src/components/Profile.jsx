@@ -1,5 +1,6 @@
 import Bio from "./Bio";
 import StatCard from "./StatCard";  
+import Hire from "./Hire";
 
 function Profile({ followers, rate, handleFollow, handleAddRate, handleReset }) {
     return (
@@ -32,6 +33,8 @@ function Profile({ followers, rate, handleFollow, handleAddRate, handleReset }) 
             Reset
           </button>
         </div>
+
+        
         </>
     )
 }
